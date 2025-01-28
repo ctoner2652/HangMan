@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangMan.UI", "HangMan.UI\HangMan.UI.csproj", "{FD61650E-EF1B-4432-B248-F166E419F4BD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AE81E0BA-1EFB-4A94-83DB-5E1D53F4D2B2} = {AE81E0BA-1EFB-4A94-83DB-5E1D53F4D2B2}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangman.BLL", "Hangman.BLL\Hangman.BLL.csproj", "{AE81E0BA-1EFB-4A94-83DB-5E1D53F4D2B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangman.Test", "Hangman.Test\Hangman.Test.csproj", "{CEE1428E-D098-432E-9584-9B9BDBFB61F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD61650E-EF1B-4432-B248-F166E419F4BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD61650E-EF1B-4432-B248-F166E419F4BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD61650E-EF1B-4432-B248-F166E419F4BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD61650E-EF1B-4432-B248-F166E419F4BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE81E0BA-1EFB-4A94-83DB-5E1D53F4D2B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE81E0BA-1EFB-4A94-83DB-5E1D53F4D2B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE81E0BA-1EFB-4A94-83DB-5E1D53F4D2B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE81E0BA-1EFB-4A94-83DB-5E1D53F4D2B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE1428E-D098-432E-9584-9B9BDBFB61F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE1428E-D098-432E-9584-9B9BDBFB61F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE1428E-D098-432E-9584-9B9BDBFB61F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE1428E-D098-432E-9584-9B9BDBFB61F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
